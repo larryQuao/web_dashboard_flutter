@@ -20,7 +20,7 @@ class MenuController extends GetxController {
 
   isHovering(String itemName) => hoverItem.value == itemName;
 
-  Widget _returnIcomFor(String itemName) {
+  Widget returnIconFor(String itemName) {
     switch (itemName) {
       case OverViewPageRoute:
         return _customIcon(Icons.trending_up, itemName);
